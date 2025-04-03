@@ -11,7 +11,7 @@ import WhatsAppButton from "@/components/whatsapp-button"
 import { motion } from "framer-motion";
 import NextParticleComponent from '@/components/HeartParticles';
 import CardExamples from '@/components/cards-examples';
-import HeroTitle from '@/components/hero-title';
+
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       
       <section className="text-center w-full mx-auto py-10 max-w-[1324px] ">
-        <HeroTitle />
+        
         <Badge  />
       </section>
 
