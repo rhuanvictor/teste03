@@ -1,11 +1,11 @@
 import { title, subtitle } from "@/components/primitives";
 import Badge from "@/components/chip/chip";
-import ScrollingBanner from "@/components/scrolling-banners/scrolling-banners";
+
 import FeaturesBento from "@/components/feature-bento";
 import { LastButNotLeast } from "@/components/last-but-not-least";
 import  {GradualSpacing}   from "@/components/gradual-spacing";
 import { fontLexend } from "@/config/fonts";
-import TextCloudDemo  from "@/components/icon-cloud-demo";
+
 
 import WhatsAppButton from "@/components/whatsapp-button"
 import { motion } from "framer-motion";
@@ -35,9 +35,7 @@ export default function Home() {
         <CardExamples  />
       </section>
      
-      <section className="text-lg font-bold">      
-        <ScrollingBanner />
-      </section>
+     
 
       {/* Seção de Funcionalidades */}
       <section className="mt-20 lg:mt-60 text-center">
@@ -50,10 +48,7 @@ export default function Home() {
       
 
       {/* Seção de Banner Rolante<NextParticleComponent />  <ScrollingBanner />*/}
-      <section>
-      <TextCloudDemo  />
-      
-      </section>
+     
 
       {/* Seção Final */}
       <section>
