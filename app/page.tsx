@@ -1,7 +1,7 @@
 import { title, subtitle } from "@/components/primitives";
 import Badge from "@/components/chip/chip";
 
-import FeaturesBento from "@/components/feature-bento";
+
 import { LastButNotLeast } from "@/components/last-but-not-least";
 import  {GradualSpacing}   from "@/components/gradual-spacing";
 import { fontLexend } from "@/config/fonts";
@@ -41,7 +41,7 @@ export default function Home() {
       <section className="mt-20 lg:mt-60 text-center">
         <h1 className="text-2xl lg:text-4xl font-semibold">Interação</h1>
         <br />
-        <FeaturesBento />
+      
         <WhatsAppButton />
       </section>
 
